@@ -1,0 +1,82 @@
+.header{
+    background-color: rgb(228, 44, 106);
+    overflow: hidden;
+}
+.footer{
+    background-color: pink;
+    text-align: center;
+    font-size: 10px;
+}
+.main-logo img {
+    height: 45px;
+    margin-left: 5px;
+}
+.main-logo{
+    display: block;
+    float: left;
+    width: 300px
+}
+.main-navigation{
+    float: right;
+    list-style: none;
+    padding: 0px;
+}
+.main-navigation li{
+    float: left;
+   /* margin-right: 20px; */
+   /* uz augšu pa labi, uz leju, pa kreisi*/
+    margin: 0px 20px 0px 0px;
+    line-height: 15px
+}
+.main-navigation a{
+    color: gainsboro;
+    text-decoration: none;
+    font-size: 16px;
+}
+.main-navigation a:hover {
+    /* hover ir uzbraukt ar peli, šis dizins nomainīsies tikai tad, kad uzbrauks ar peli */
+    color: black;
+    text-decoration: underline;
+}
+.middle{
+    overflow: hidden
+}
+.leftmenu {
+    background-color: rgb(131, 120, 120);
+    float: left;
+    width: 10%;   
+    height: 1000px;   
+}
+.left-navigation li{
+    list-style: none;
+    float: left;
+    margin:5px 25px 5px 0px;
+    /* line-height: 15px */
+}
+
+.left-navigation a{
+    color: rgb(252, 250, 251);
+   text-decoration: none;
+    font-size: 18px;
+    float: left;
+}
+.left-navigation a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.content{
+    float:left;
+    width: 90%;
+}
+div p,h1{
+    padding-left: 10px;
+    text-align: justify;
+}
+h1{
+    color: brown
+}
+.textwrap{
+    width: 150px;
+    float: left;
+    margin: 5px 10px 0px 0px;
+}
